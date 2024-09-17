@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    height: 100vh;
+   margin: 0px;
+}
+.img1{
+    width: 100vw;
+    height:150px;
+    background-size: cover;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+.content-box{
+    background-color: hsl(0, 0%, 100%);
+    margin: 20px;
+}
+.dec{
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.preparation-box{
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.preparation-heading{
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 20px;
+}
+.preparation-list{
+    color:  hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  
+}
+.preparation-li{
+padding-left: 20px;
+padding-bottom: 10px;
+
+}
+
+.ingredients-heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+.ingredients-list{
+    color:hsl(14, 45%, 36%);
+    padding-left: 20px;
+    list-style: none; 
+    position: relative;
+    
+}
+.ingredients-list li::before{
+    content: '•';
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    color:hsl(14, 45%, 36%);
+    
+}
+.ingredients-li{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  padding-left: 20px;
+padding-bottom: 10px;
+}
+.instructions-list{
+    padding-left: 20px;
+}
+.instructions-li{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  padding-left: 20px;
+padding-bottom: 10px;
+}
+.instructions-span{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  padding-right: 10px;
+}
+.preparation-span{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  padding-left: 5px;
+}
+table{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+th,td{
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+td{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  
+}
+th{
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+ 
+}
+.separator{
+    padding: 0px;
+}
+.img2{
+    display: none;
+}
+@media all and (min-width:1400px){
+    body{
+        height: 100vh;
+        width: 100vw;
+       margin: 0px;
+       background-color:  hsl(30, 54%, 90%);
+      
+    }
+    .content-box{
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    align-self: center;
+    margin: auto;
+    }
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: block;
+        width:100%;
+        border-radius: 20px;
+    }
+   
+}
