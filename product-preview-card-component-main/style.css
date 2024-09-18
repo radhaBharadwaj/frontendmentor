@@ -71,7 +71,7 @@ button{
         width: 40%;
         border-radius: 15px;
         background-color:  hsl(0, 0%, 100%);
-        margin: auto;
+       margin: 6em auto;
     }
     img{
         width: 50%;
