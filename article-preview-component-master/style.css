@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+main{
+    font-size: 13px;
+    padding: 5rem 2rem;
+    background-color: hsl(210, 46%, 95%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    border-radius: 10px;
+    background-color: #ffff;
+}
+.display-none{
+    display: none;
+}
+.drawers{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.content{
+    padding: 2rem;
+    font-family: "Manrope", sans-serif;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+}
+.main-heading{
+    color: hsl(217, 19%, 35%);
+    font-size: 1rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.para{
+    color:  hsl(212, 23%, 69%);
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+}
+.name-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.name-date-img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.heading{
+    color: hsl(217, 19%, 35%);
+    font-size: 0.8rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.avatar{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.icon{
+    color: rgb(72, 85, 106);
+    z-index: 20;
+}
+.iocon-con{
+    background-color:  hsl(210, 46%, 95%);
+    padding: 0.5em;
+    border-radius: 50%;
+   cursor: pointer;
+}
+
+.mobile-active-con{
+    background-color: hsl(217, 19%, 35%);
+    width:240px;
+    height: 55px;
+    border-radius: 7px;
+    position: absolute;
+    left:280px;
+    top:-50px;
+    
+}
+.mobile-active-con-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top:1em ;
+}
+.share{
+    font-size: small;
+    color: hsl(212, 23%, 69%);
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5em;
+    padding-right: 1em;
+}
+.svg1{
+    padding-right: 0.8em;
+}
+.icon1{
+    background-color:  hsl(212, 23%, 69%);
+    padding: 0.5em;
+    border-radius: 50%;
+}
+.mobile-active-show{
+    display: flex;
+}
+
+@media (min-width:1440px) {
+    section{
+        border-radius: 10px;
+        background-color: #ffff;
+        display: flex;
+        width: 70%;
+    }
+    .drawers{
+        width: 50%;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .main-heading{
+        color: hsl(217, 19%, 35%);
+        font-size: 1.5rem;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .para{
+        font-size: 1rem;
+    }
+    .heading{
+        color: hsl(217, 19%, 35%);
+        font-size: 1rem;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    .avatar{
+        width: 80px;
+    }
+}
+@media (max-width:375px){
+   .iocon-con{
+    z-index: 5;
+   }
+   .mobile-active-con{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:#fff;
+    position: absolute;
+    left:-39px;
+    bottom:-15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+    width: 100%;
+    height: 59px;
+    border-radius: 7px;
+    position: absolute;
+    left: -1px;
+    top: 11px;
+   }
+   .display-none{
+    display: none;
+   }
+   .mobile-active-con:before{
+    display: none;
+   }
+}
