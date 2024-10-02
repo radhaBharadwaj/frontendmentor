@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mainCon{
+
+}
+.textCon{
+    padding: 1em 2em;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.textCon h1{
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+.textCon p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(235, 18%, 26%);
+}
+
+.list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.li{
+    margin-left: 10px;
+}
+label{
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(234, 29%, 20%);
+    margin-top: 10px;
+}
+input{
+    width: 90%;
+   padding: 10px;
+   border-radius: 8px;
+   border: 1px solid hsl(231, 7%, 60%);
+   margin-top: 10px;
+}
+button{
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+.thanks{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+.thanks h1{
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+.thanks p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(235, 18%, 26%);
+}
+.dismissBtn{
+    margin-top: 12em;
+}
+span{
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+.error{
+    background-color: rgb(184, 123, 123);
+    opacity: 70%;
+    border: 1px solid red;
+    
+}
+
+.in{
+    display: flex;
+    flex-direction: column;
+}
+.desk{
+    display: none;
+}
+
+@media all and (min-width:1440px){
+    .mainCon{
+        display: flex;
+        
+    }
+    .desk{
+        display: flex;
+        height: 500px;
+        order: 1;
+    }
+    .mob{
+        display: none;
+    }
+    .textCon{
+        order: 0;
+    }
+    .thanks{
+        width: 50%;
+        height: 20%;
+    }
+}
